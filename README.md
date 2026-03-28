@@ -1,8 +1,6 @@
 # WLAN-Wireshark-analysis-projects
 Practical WLAN (802.11) analysis using Wireshark with real packet captures. Explore probe, authentication, association, and data flows, apply filters, and debug connectivity issues. Built to develop strong packet-level insight for wireless protocol engineering and Wi-Fi troubleshooting roles.
 
-Absolutely, Vishnu — here is the **final polished README** you can copy‑paste directly into your GitHub repository **WLAN‑Wireshark‑Analysis‑Projects**.
-
 ### *Advanced 802.11 MAC‑Layer Analysis • Wireshark Deep Dives • Real-World WLAN Debugging*
 A comprehensive engineering‑grade repository focused on **802.11 Wi‑Fi protocol analysis**, **MAC‑layer frame decoding**, and **practical troubleshooting techniques** used by leading wireless companies like **Qualcomm**, **Broadcom**, **Intel**, and **Mediatek**.
 This project demonstrates end‑to‑end WLAN expertise through structured Wireshark studies, including:
