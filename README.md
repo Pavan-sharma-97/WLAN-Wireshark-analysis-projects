@@ -122,14 +122,3 @@ Topics covered:
     wlan.qos.tid == 6                    # Voice traffic (AC_VO)
     wlan.ba                               # Block ACK frames
     eapol                                  # WPA2/WPA3 4-Way Handshake
-
-
-
-
-
-
-👉 **“Enhance README with visuals and badges.”**
-
-***
-
-This is the **final complete README** — copy it exactly as is for a polished, professional GitHub repository.
