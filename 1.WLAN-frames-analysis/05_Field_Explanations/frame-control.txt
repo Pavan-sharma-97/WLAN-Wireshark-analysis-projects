@@ -1,0 +1,46 @@
+# 🧱 Frame Control Field (2 bytes)
+
+Appears at start of every 802.11 MAC header.
+
++--------+----------------------------------+
+| Bits   | Meaning                          |
++--------+----------------------------------+
+| 0–1    | Protocol Version (usually 00)    |
+| 2–3    | Type (Mgmt/Control/Data)         |
+| 4–7    | Subtype                          |
+| 8      | To DS                             |
+| 9      | From DS                           |
+| 10     | More Fragments                    |
+| 11     | Retry                             |
+| 12     | Pwr Mgmt                          |
+| 13     | More Data                         |
+| 14     | Protected Frame                   |
+| 15     | Order (+HTC)                      |
++--------+----------------------------------+
+
+
+🎛 QoS Control Field (2 bytes)
+
+Used in QoS Data frames.
+
+Byte 1:
+
+Bits 0–3: TID
+Bit 4: EOSP
+Bits 5–6: ACK Policy
+Bit 7: Reserved
+
+Byte 2:
+
+Bits 8–15: Queue Size (UL) / AP Buffer State (DL) / TXOP / Mesh info
+
+
+# 🔢 Sequence Control Field (2 bytes)
+
++----------+------------------------------+
+| Bits     | Meaning                      |
++----------+------------------------------+
+| 0–3      | Fragment Number              |
+| 4–15     | Sequence Number              |
++----------+------------------------------+
+Fragments share the same sequence number.
