@@ -1,0 +1,4 @@
+# ATIM (Subtype 9)
+
+Used only in IBSS mode.  
+Rare today.atim.md (if using ad‑hoc)
